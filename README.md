@@ -4,7 +4,7 @@ A Path of Exile forum scraper for items
 
 ## Testing
 
-### Running unit test
+### Running unit tests
 
 ```
 go test ./...
