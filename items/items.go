@@ -16,6 +16,17 @@ type ForumItem struct {
 	Extra []interface{}
 }
 
+func (i *ForumItem) PrintAttributes() {
+	fmt.Println("ID:", i.Id)
+	fmt.Println("Name:", i.Attributes.Name)
+	fmt.Println("Base Type:", i.Attributes.TypeLine)
+	fmt.Println("Properties:", i.Attributes.Properties)
+	fmt.Println("Mods:", i.Attributes.ExplicitMods)
+	fmt.Println("Requirements:", i.Attributes.Requirements)
+	fmt.Println("Sockets:", i.Attributes.Sockets)
+	fmt.Println()
+}
+
 type ItemAttributes struct {
 	// The name of the item
 	Name string
@@ -54,6 +65,7 @@ type ItemAttributes struct {
 	Requirements []Requirement
 
 	// Not sure what this looks like yet
+	// https://github.com/willroberts/loot/blob/master/forum/fixtures/items.json#L1238
 	SocketedItems interface{}
 
 	// A slice of item.Socket
@@ -73,17 +85,6 @@ type ItemAttributes struct {
 
 	// Width of the item in stash spaces
 	Width int64
-}
-
-func (i *ForumItem) PrintAttributes() {
-	fmt.Println("ID:", i.Id)
-	fmt.Println("Name:", i.Attributes.Name)
-	fmt.Println("Base Type:", i.Attributes.TypeLine)
-	fmt.Println("Properties:", i.Attributes.Properties)
-	fmt.Println("Mods:", i.Attributes.ExplicitMods)
-	fmt.Println("Requirements:", i.Attributes.Requirements)
-	fmt.Println("Sockets:", i.Attributes.Sockets)
-	fmt.Println()
 }
 
 type Property struct {
