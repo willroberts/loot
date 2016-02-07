@@ -1,0 +1,2997 @@
+[
+    [
+        0,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "205% increased Armour",
+                "+74 to maximum Life",
+                "0.4% of Physical Attack Damage Leeched as Mana",
+                "Socketed Gems are Supported by level 15 Pierce",
+                "+20% chance to be Pierced by Projectiles"
+            ],
+            "flavourText": [
+                "\"The Virtue Gems are a gift from the land, \r",
+                "our land, and we will not let our gifts\r",
+                "be destroyed by savages.\"\r",
+                "- Marceus Lioneye"
+            ],
+            "frameType": 3,
+            "h": 3,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/BodyArmours/LioneyesArmour.png?scale=1&w=2&h=3&v=461cdac7164f912e2302472b0a7e9b903",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Lioneye's Vision",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "1305",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "160",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Crusader Plate",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        1,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+84 to maximum Life",
+                "9% increased Rarity of Items found",
+                "+28% to Cold Resistance",
+                "+27% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetDex6.png?scale=1&w=2&h=2&v=2fe5188eabf7d3ea543d62cbc833e2903",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Chimeric Dome",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "201",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "99",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Noble Tricorne",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        2,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+5 to Evasion Rating",
+                "11% increased Rarity of Items found",
+                "+36% to Cold Resistance",
+                "+44% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?scale=1&w=2&h=2&v=daacc0418feaedbe51b9b47ef8caebab3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Sorrow Caress",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "159",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "78",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Shagreen Gloves",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        3,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+85 to maximum Life",
+                "+41 to maximum Energy Shield",
+                "+29% to Lightning Resistance",
+                "+18% to Chaos Resistance",
+                "Reflects 9 Physical Damage to Melee Attackers"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetInt9.png?scale=1&w=2&h=2&v=3aeebe40b6db3abe7e4d92e3402db35e3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Soul Veil",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "116",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "122",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 1
+                },
+                {
+                    "attr": "S",
+                    "group": 2
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Solaris Circlet",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        4,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "Adds 4-7 Physical Damage to Attacks",
+                "+24 to Strength",
+                "+55 to maximum Life",
+                "+29% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e883",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Woe Fist",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Hydrascale Gauntlets",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        5,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+249 to Accuracy Rating",
+                "110% increased Armour and Energy Shield",
+                "+40% to Fire Resistance",
+                "+18% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt9.png?scale=1&w=2&h=2&v=a323fc68eab119f0020b9bfed06bb4633",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Demon Guardian",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "409",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "84",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "63",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Prophet Crown",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        6,
+        {
+            "additionalProperties": [
+                {
+                    "displayMode": 2,
+                    "name": "Experience",
+                    "progress": 8.4471585069e-06,
+                    "values": [
+                        [
+                            "1/118383",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "corrupted": true,
+            "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+            "explicitMods": [
+                "Base duration is 6.00 seconds",
+                "You and nearby allies gain 14% increased Movement Speed",
+                "You and nearby allies gain 30% increased Attack Speed",
+                "You and nearby allies gain 29% increased Cast Speed"
+            ],
+            "frameType": 4,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/VaalGems/VaalHaste.png?scale=1&w=1&h=1&v=2f51c9540eb8f292daf9e791da64c1473",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Aura, Vaal, Spell, AoE, Duration",
+                    "values": []
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Mana Cost",
+                    "values": [
+                        [
+                            "0",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Souls Per Use",
+                    "values": [
+                        [
+                            "24",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 3,
+                    "name": "Can Store %0 Use",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Cast Time",
+                    "values": [
+                        [
+                            "0.60 sec",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "24",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "secDescrText": "Casts a temporary aura that increases the movement speed, attack speed and cast speed of you and your allies.",
+            "socketedItems": [],
+            "sockets": [],
+            "support": false,
+            "talismanTier": 0,
+            "typeLine": "Vaal Haste",
+            "verified": false,
+            "w": 1
+        },
+        []
+    ],
+    [
+        7,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+41 to Strength",
+                "+48 to maximum Life",
+                "+45% to Fire Resistance",
+                "+29% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda63",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Hypnotic Caress",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+12%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "169",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "76",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Goliath Gauntlets",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        8,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+13 to Dexterity",
+                "79% increased Evasion Rating",
+                "+80 to maximum Life",
+                "+17% to Fire Resistance",
+                "+25% to Cold Resistance",
+                "30% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?scale=1&w=2&h=2&v=597ff9da61bbd5547ef2b10d25b8e9093",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Death Stride",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "342",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "117",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Stealth Boots",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        9,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+31 to Strength",
+                "+99 to maximum Life",
+                "+26% to Lightning Resistance",
+                "+20% to Chaos Resistance",
+                "20% increased Flask Mana Recovery rate"
+            ],
+            "frameType": 2,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Belts/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea3633",
+            "identified": true,
+            "implicitMods": [
+                "+30 to maximum Life"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Bramble Twine",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Leather Belt",
+            "verified": false,
+            "w": 2
+        },
+        []
+    ],
+    [
+        10,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+7 to Evasion Rating",
+                "+40% to Fire Resistance",
+                "+34% to Lightning Resistance",
+                "+19% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Death Road",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+11%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "182",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "55",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "97",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Shagreen Boots",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        11,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+12 to Armour",
+                "97% increased Armour",
+                "+80 to maximum Life",
+                "+43% to Fire Resistance",
+                "+21% to Lightning Resistance",
+                "25% increased Stun Recovery"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe123",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Blood Spark",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "327",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "95",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Goliath Greaves",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        12,
+        {
+            "corrupted": false,
+            "craftedMods": [
+                "68% increased Armour and Evasion"
+            ],
+            "explicitMods": [
+                "+77 to Accuracy Rating",
+                "+59 to Armour",
+                "+88 to maximum Life",
+                "+24% to Chaos Resistance",
+                "+4 Life gained on Kill"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e883",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Demon Fingers",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "284",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "173",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Hydrascale Gauntlets",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        13,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "Adds 6-10 Physical Damage to Attacks",
+                "27% increased Elemental Damage with Weapons",
+                "+47 to Dexterity",
+                "+304 to Accuracy Rating",
+                "+88 to maximum Life",
+                "+38% to Fire Resistance"
+            ],
+            "frameType": 2,
+            "h": 3,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Quivers/QuiverSpike-Point.png?scale=1&w=2&h=3&v=1bd153027f337b59c30957890e2239743",
+            "identified": true,
+            "implicitMods": [
+                "26% increased Global Critical Strike Chance"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Storm Stinger",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Spike-Point Arrow Quiver",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        14,
+        {
+            "corrupted": false,
+            "craftedMods": [
+                "+28% to Lightning Resistance"
+            ],
+            "explicitMods": [
+                "+42 to Strength",
+                "+80 to maximum Life",
+                "+16% to Cold Resistance",
+                "25% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?scale=1&w=2&h=2&v=399734b915715a11364011fd9451b3703",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Rift Track",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "106",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Antique Greaves",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        15,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "65% increased Armour",
+                "+29% to Fire Resistance",
+                "+7% to Lightning Resistance",
+                "+25% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda63",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Sorrow Grasp",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "249",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "108",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "43",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [
+                {
+                    "additionalProperties": [
+                        {
+                            "displayMode": 2,
+                            "name": "Experience",
+                            "progress": 0.0763417705894,
+                            "values": [
+                                [
+                                    "1164671/15256013",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "colour": "D",
+                    "corrupted": false,
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "8% increased Damage",
+                        "35% more Trap and Mine Damage",
+                        "10% reduced Trap Throwing Speed",
+                        "10% reduced Mine Laying Speed"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/TrapAndMineDamage.png?scale=1&w=1&h=1&v=aa1fd5a62b528839c08f0f19148d15413",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Support, Trap, Mine",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "16",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "130%",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+16%",
+                                    1
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "62",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "62",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "43",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "socket": 0,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": true,
+                    "talismanTier": 0,
+                    "typeLine": "Trap and Mine Damage",
+                    "verified": true,
+                    "w": 1
+                },
+                {
+                    "additionalProperties": [
+                        {
+                            "displayMode": 2,
+                            "name": "Experience",
+                            "progress": 2.57245324065e-06,
+                            "values": [
+                                [
+                                    "1/388734",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "colour": "S",
+                    "corrupted": false,
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "This Gem can only Support Skill Gems requiring Level 38 or lower",
+                        "70% less Damage",
+                        "You cannot Cast Supported Spells directly",
+                        "Casts Supported Spells when you take a total of 528 Damage"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/CastOnDmgTaken.png?scale=1&w=1&h=1&v=e03ceb1a31e457dbfe30e968c76fb0d63",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Support, Spell, Trigger",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "1",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Cooldown Time",
+                            "values": [
+                                [
+                                    "0.25 sec",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "38",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "39",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Int",
+                            "values": [
+                                [
+                                    "27",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "socket": 1,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": true,
+                    "talismanTier": 0,
+                    "typeLine": "Cast when Damage Taken",
+                    "verified": true,
+                    "w": 1
+                },
+                {
+                    "additionalProperties": [
+                        {
+                            "displayMode": 2,
+                            "name": "Experience",
+                            "progress": 0.456772536039,
+                            "values": [
+                                [
+                                    "20037418/43867388",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "colour": "S",
+                    "corrupted": false,
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "52% chance to Knock Enemies Back on hit",
+                        "50% increased Knockback Distance"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/Knockback.png?scale=1&w=1&h=1&v=f4c5ecc35abb51eb0c9254f635f11e2a3",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Support",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "18",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "64",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "102",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "socket": 2,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": true,
+                    "talismanTier": 0,
+                    "typeLine": "Knockback",
+                    "verified": true,
+                    "w": 1
+                },
+                {
+                    "additionalProperties": [
+                        {
+                            "displayMode": 2,
+                            "name": "Experience",
+                            "progress": 0.430340230465,
+                            "values": [
+                                [
+                                    "91020724/211508743",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "colour": "S",
+                    "corrupted": false,
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "Spend Life instead of Mana for Supported Skills"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/BloodMagic.png?scale=1&w=1&h=1&v=cddb11c579c3422bd85a7c989dc60cbc3",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Support",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "19",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "197%",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "68",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "108",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "socket": 3,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": true,
+                    "talismanTier": 0,
+                    "typeLine": "Blood Magic",
+                    "verified": true,
+                    "w": 1
+                }
+            ],
+            "sockets": [
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Goliath Gauntlets",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        16,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+384 to Accuracy Rating",
+                "+71 to maximum Life",
+                "10% increased Rarity of Items found",
+                "+44% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c53",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Phoenix Corona",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "112",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Necromancer Circlet",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        17,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+62 to maximum Life",
+                "2 Life Regenerated per second",
+                "86% increased Energy Shield",
+                "+45 to maximum Energy Shield"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetInt11.png?scale=1&w=2&h=2&v=e785517985bfa266e348519edfc144853",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Dread Star",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "270",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "154",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Hubris Circlet",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        18,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+51 to maximum Life",
+                "56% increased Energy Shield",
+                "+60 to maximum Energy Shield",
+                "+35% to Fire Resistance",
+                "+15% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetInt9.png?scale=1&w=2&h=2&v=3aeebe40b6db3abe7e4d92e3402db35e3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Fate Salvation",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "211",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "122",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Solaris Circlet",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        19,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+26 to Intelligence",
+                "+87 to maximum Life",
+                "+47 to maximum Mana",
+                "42% increased Energy Shield",
+                "+43% to Cold Resistance",
+                "15% increased Stun Recovery"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?scale=1&w=2&h=2&v=373419137bbd6b0e4ba9439b3ff1a7d53",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Oblivion Claw",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "65",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "79",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Conjurer Gloves",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        20,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "12% reduced Enemy Stun Threshold",
+                "+65 to maximum Life",
+                "+13 to maximum Energy Shield",
+                "+44% to Fire Resistance",
+                "+26% to Chaos Resistance",
+                "Reflects 2 Physical Damage to Melee Attackers"
+            ],
+            "frameType": 2,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Belts/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea3633",
+            "identified": true,
+            "implicitMods": [
+                "+33 to maximum Life"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Honour Cord",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Leather Belt",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        21,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "129% increased Critical Strike Chance for Spells",
+                "347% increased Energy Shield",
+                "80% increased Mana Cost of Skills",
+                "+20 Energy Shield gained on Kill",
+                "+1 to Level of Socketed Elemental Gems"
+            ],
+            "flavourText": [
+                "Absolute corruption empowers absolutely."
+            ],
+            "frameType": 3,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Gloves/Hellbringer.png?scale=1&w=2&h=2&v=c93c1cd81519577d1b894a7572dc7b083",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Voidbringer",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "206",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "55",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "79",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "D",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Conjurer Gloves",
+            "verified": false,
+            "w": 2
+        },
+        []
+    ],
+    [
+        22,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "50% of Block Chance applied to Spells",
+                "51% increased Spell Damage",
+                "10% increased maximum Life",
+                "151% increased Energy Shield",
+                "+25% to Lightning Resistance"
+            ],
+            "flavourText": [
+                "The Vaal emptied their slaves of beating hearts,\r",
+                "and left a mountain of twitching dead."
+            ],
+            "frameType": 3,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Shields/ShieldInt6unique.png?scale=1&w=2&h=2&v=710318bc224500d303321a80f182eb4d3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Rathpith Globe",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Chance to Block",
+                    "values": [
+                        [
+                            "25%",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "211",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "159",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Titanium Spirit Shield",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        23,
+        {
+            "corrupted": false,
+            "craftedMods": [
+                "+29% to Fire Resistance"
+            ],
+            "explicitMods": [
+                "+93 to maximum Life",
+                "+3 to maximum Energy Shield",
+                "+14% to Cold Resistance",
+                "+44% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt7.png?scale=1&w=2&h=2&v=bf2963e78379f6eb35bbfede3ade01643",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Hate Cowl",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "125",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "40",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Great Crown",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        24,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "+24 to Intelligence",
+                "17% increased Lightning Damage",
+                "35% increased Mana Regeneration Rate",
+                "50% of Lightning Damage Converted to Cold Damage",
+                "Your spells have 100% chance to Shock against Frozen enemies"
+            ],
+            "flavourText": [
+                "Forged by three brothers\r",
+                "so that they may recognize each other\r",
+                "across any distance of time or travel."
+            ],
+            "frameType": 3,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Rings/Brotherhood.png?scale=1&w=1&h=1&v=44b290c7efc3e11a84e591e6830d0dcb3",
+            "identified": true,
+            "implicitMods": [
+                "+15% to Cold and Lightning Resistances"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Call of the Brotherhood",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Two-Stone Ring",
+            "verified": false,
+            "w": 1
+        },
+        []
+    ],
+    [
+        25,
+        {
+            "corrupted": false,
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "explicitMods": [
+                "20% increased Mana Regeneration Rate",
+                "59% increased Spell Damage while no Mana is Reserved"
+            ],
+            "flavourText": [
+                "When your thoughts flow like a river, why build a dam?"
+            ],
+            "frameType": 3,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Jewels/unique13.png?scale=1&w=1&h=1&v=d56ae64904ce4141a4d1007788dd995f3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Clear Mind",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Cobalt Jewel",
+            "verified": true,
+            "w": 1
+        },
+        []
+    ],
+    [
+        26,
+        {
+            "corrupted": false,
+            "craftedMods": [
+                "+25% to Lightning Resistance"
+            ],
+            "explicitMods": [
+                "+91 to maximum Life",
+                "+33 to maximum Energy Shield",
+                "+40% to Fire Resistance",
+                "+31% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Belts/Belt2.png?scale=1&w=2&h=1&v=05d53adc2875453b6b6bb2652ee3d74d3",
+            "identified": true,
+            "implicitMods": [
+                "+17 to maximum Energy Shield"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Soul Bind",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Chain Belt",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        27,
+        {
+            "corrupted": false,
+            "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+            "explicitMods": [
+                "10% increased Spell Damage",
+                "100% reduced Critical Strike Chance",
+                "44% more Spell Damage"
+            ],
+            "frameType": 4,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/ControlledDestructionGem.png?scale=1&w=1&h=1&v=4010026af7da0090faa9af99bfbd49523",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Spell, Support",
+                    "values": []
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20 (Max)",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Mana Multiplier",
+                    "values": [
+                        [
+                            "130%",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "111",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Controlled Destruction",
+            "verified": true,
+            "w": 1
+        },
+        []
+    ],
+    [
+        28,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "Has no Sockets",
+                "34% increased Fire Damage",
+                "+500 to maximum Life"
+            ],
+            "flavourText": [
+                "The warrior who\r",
+                "fears will fall."
+            ],
+            "frameType": 3,
+            "h": 3,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3CUnique.png?scale=1&w=2&h=3&v=17f8ffa792c762b835e741a162fdb1e13",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Kaom's Heart",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "664",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "191",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Glorious Plate",
+            "verified": false,
+            "w": 2
+        },
+        []
+    ],
+    [
+        29,
+        {
+            "artFilename": "TheBrittleEmperor",
+            "corrupted": false,
+            "explicitMods": [
+                "<uniqueitem>{Voll's Devotion}\r",
+                "<corrupted>{Corrupted}"
+            ],
+            "flavourText": [
+                "<size:31>{\"When Voll spared Malachai, accepting his aid in pursuit of Purity, the strongest faith was infected by Corruption and made brittle as glass.\"\r",
+                "- Victario, the People's Poet}"
+            ],
+            "frameType": 6,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1/8",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "The Brittle Emperor",
+            "verified": true,
+            "w": 1
+        },
+        []
+    ],
+    [
+        30,
+        {
+            "corrupted": false,
+            "craftedMods": [
+                "13% increased Movement Speed"
+            ],
+            "explicitMods": [
+                "+50 to Strength",
+                "119% increased Armour",
+                "+82 to maximum Life",
+                "+43% to Fire Resistance",
+                "+38% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe123",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Hate Goad",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "227",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 1
+                },
+                {
+                    "attr": "D",
+                    "group": 1
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Reinforced Greaves",
+            "verified": true,
+            "w": 2
+        },
+        []
+    ],
+    [
+        31,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "Adds 4-10 Physical Damage to Attacks",
+                "+72 to maximum Life",
+                "+9% to all Elemental Resistances",
+                "+45% to Fire Resistance"
+            ],
+            "frameType": 2,
+            "h": 1,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Rings/Ring7.png?scale=1&w=1&h=1&v=0d73ed3a0f503653328f2593bda615d33",
+            "identified": true,
+            "implicitMods": [
+                "+22% to Fire Resistance"
+            ],
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Corruption Knot",
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [],
+            "sockets": [],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Ruby Ring",
+            "verified": true,
+            "w": 1
+        },
+        []
+    ],
+    [
+        32,
+        {
+            "corrupted": false,
+            "explicitMods": [
+                "100% increased Spell Damage",
+                "15% reduced Cast Speed",
+                "+37 to maximum Mana",
+                "Your Skills deal you 400% of Mana Cost as Physical Damage"
+            ],
+            "flavourText": [
+                "\"The sharper the pain, the sharper the mind. \r",
+                "A curious paradox.\"\t\r",
+                "- Shavronne of Umbra"
+            ],
+            "frameType": 3,
+            "h": 2,
+            "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Armours/Helmets/ScoldsBridle.png?scale=1&w=2&h=2&v=b05ae7a678cf319ee7e8ecb14199ea0c3",
+            "identified": true,
+            "league": "Standard",
+            "lockedToCharacter": false,
+            "name": "<<set:MS>><<set:M>><<set:S>>Scold's Bridle",
+            "properties": [
+                {
+                    "displayMode": 0,
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 0,
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "109",
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "requirements": [
+                {
+                    "displayMode": 0,
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Str",
+                    "values": [
+                        [
+                            "155",
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "displayMode": 1,
+                    "name": "Int",
+                    "values": [
+                        [
+                            "138",
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "socketedItems": [
+                {
+                    "colour": "S",
+                    "corrupted": true,
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "Deals 1373-2060 Fire Damage",
+                        "Base duration is 10.00 seconds",
+                        "943 additional Armour"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/VaalGems/VaalMoltenShell.png?scale=1&w=1&h=1&v=e9579260084f68c10ec9aaea6bff14123",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Vaal, Spell, AoE, Duration, Fire",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Mana Cost",
+                            "values": [
+                                [
+                                    "0",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Souls Per Use",
+                            "values": [
+                                [
+                                    "48",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 3,
+                            "name": "Can Store %0 Use",
+                            "values": [
+                                [
+                                    "1",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Cast Time",
+                            "values": [
+                                [
+                                    "1.00 sec",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Critical Strike Chance",
+                            "values": [
+                                [
+                                    "5.00%",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Damage Effectiveness",
+                            "values": [
+                                [
+                                    "200%",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "155",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "secDescrText": "Summons fiery elemental shields providing additional armour for a short duration. For each hit you take, the shields cause a burst of flame, dealing fire damage to surrounding enemies.",
+                    "socket": 0,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": false,
+                    "talismanTier": 0,
+                    "typeLine": "Vaal Molten Shell",
+                    "verified": false,
+                    "w": 1
+                },
+                {
+                    "colour": "S",
+                    "corrupted": true,
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "explicitMods": [
+                        "74% increased Skill Effect Duration"
+                    ],
+                    "frameType": 4,
+                    "h": 1,
+                    "icon": "http://webcdn.pathofexile.com/image/Art/2DItems/Gems/Support/IncreasedDuration.png?scale=1&w=1&h=1&v=14b3a91933f0b921d1b573358e31f7683",
+                    "identified": true,
+                    "lockedToCharacter": false,
+                    "name": "",
+                    "properties": [
+                        {
+                            "displayMode": 0,
+                            "name": "Support, Duration",
+                            "values": []
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "140%",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 0,
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ]
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "displayMode": 0,
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ]
+                        },
+                        {
+                            "displayMode": 1,
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "111",
+                                    0
+                                ]
+                            ]
+                        }
+                    ],
+                    "socket": 1,
+                    "socketedItems": [],
+                    "sockets": [],
+                    "support": true,
+                    "talismanTier": 0,
+                    "typeLine": "Increased Duration",
+                    "verified": false,
+                    "w": 1
+                }
+            ],
+            "sockets": [
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "S",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 0
+                },
+                {
+                    "attr": "I",
+                    "group": 0
+                }
+            ],
+            "support": true,
+            "talismanTier": 0,
+            "typeLine": "Mind Cage",
+            "verified": false,
+            "w": 2
+        },
+        []
+    ]
+]
