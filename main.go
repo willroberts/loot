@@ -12,7 +12,7 @@ var (
 )
 
 func init() {
-	flag.IntVar(&threadId, "thread", 0, "Thread ID to show items from")
+	flag.IntVar(&threadId, "thread", 1566069, "Thread ID to show items from")
 	flag.Parse()
 }
 
