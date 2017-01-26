@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/willroberts/loot/items"
+	"github.com/willroberts/loot/forum/items"
 	"golang.org/x/net/html"
 )
 

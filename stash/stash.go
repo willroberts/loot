@@ -1,4 +1,4 @@
-package main
+package stash
 
 import (
 	"encoding/json"
@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/willroberts/loot/items"
+	"github.com/willroberts/loot/stash/items"
 )
 
 type StashesResponse struct {
@@ -68,19 +68,4 @@ func updateStash() {
 // next_change_id, then start watching the next one for changes
 func pollPublicStashTabs() {
 
-}
-
-func main() {
-	sr, err := getPublicStashTabs("foo")
-	if err != nil {
-		panic(err)
-	}
-
-	for _, s := range sr.Stashes {
-		// debug printing -- replace with actual storage
-		for _, i := range s.Items {
-			i.Print()
-			fmt.Println()
-		}
-	}
 }
