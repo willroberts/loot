@@ -17,8 +17,8 @@ const (
 	ninjaUrl string = "http://poeninja.azureedge.net/api/Data/GetStats"
 )
 
-// StashesResponse contains the response from the official public stash tab API.
-type StashesResponse struct {
+// stashesResponse contains the response from the official public stash tab API.
+type stashesResponse struct {
 	NextChangeId string `json:"next_change_id"`
 	Stashes      []Stash
 }
@@ -67,7 +67,7 @@ func getLatestChangeId() (string, error) {
 }
 
 // getStashes retrieves a single set of stashes or changes.
-func getStashes(nextChangeId string) (*StashesResponse, error) {
+func getStashes(nextChangeId string) (*stashesResponse, error) {
 	url := baseUrl
 	if nextChangeId != "" {
 		url = fmt.Sprintf("%s?id=%s", baseUrl, nextChangeId)
@@ -84,7 +84,7 @@ func getStashes(nextChangeId string) (*StashesResponse, error) {
 		return nil, err
 	}
 
-	var s StashesResponse
+	var s stashesResponse
 	err = json.Unmarshal(b, &s)
 	if err != nil {
 		return nil, err
@@ -93,9 +93,9 @@ func getStashes(nextChangeId string) (*StashesResponse, error) {
 	return &s, nil
 }
 
-// countItems iterates over the stashes in a specific response, then sums and
+// CountItems iterates over the stashes in a specific response, then sums and
 // returns the number of items included in it.
-func countItems(sr *StashesResponse) int {
+func CountItems(sr *stashesResponse) int {
 	var count int
 	for _, s := range sr.Stashes {
 		count += len(s.Items)

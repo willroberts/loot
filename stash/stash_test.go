@@ -7,7 +7,7 @@ import (
 
 var (
 	id string
-	sr *StashesResponse
+	sr *stashesResponse
 )
 
 func TestGetLatestChangeId(t *testing.T) {
@@ -38,6 +38,6 @@ func TestGetStashesPage(t *testing.T) {
 
 func TestItemParsing(t *testing.T) {
 	fmt.Print("Testing item parsing...")
-	_ = countItems(sr)
+	_ = CountItems(sr)
 	fmt.Println("OK")
 }

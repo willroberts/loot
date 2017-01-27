@@ -18,6 +18,7 @@ const (
 
 // Credentials contains an email and password for pathofexile.com.
 // Authentication via session ID is not yet supported.
+// TODO: Try SessionID instead of username/password.
 type Credentials struct {
 	Email    string
 	Password string
@@ -81,7 +82,7 @@ func readCredsFromFile() (Credentials, error) {
 	return c, nil
 }
 
-// getToken extracts the CSRF token from the login form.
+// getToken extracts the CSRF token from the login form HTML.
 func getToken() (string, error) {
 	resp, err := http.Get(loginUrl)
 	if err != nil {
@@ -93,9 +94,7 @@ func getToken() (string, error) {
 	if err != nil {
 		return "", err
 	}
-
-	parts := strings.SplitAfter(string(b), "name=\"hash\" value=\"")
-	token := parts[1][:32]
+	token := strings.SplitAfter(string(b), "name=\"hash\" value=\"")[1][:32]
 
 	return token, nil
 }
