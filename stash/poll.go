@@ -7,8 +7,6 @@ import (
 
 // Poll begins requesting stashes from the API starting from the most recent
 // change ID. It does not stop unless it is interrupted.
-// TODO: End loop on SIGINT or SIGTERM.
-// TODO: Store items in Redis with a short TTL?
 func Poll() error {
 	var s *StashesResponse
 	var err error
