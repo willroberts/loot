@@ -1,4 +1,4 @@
-package items
+package stash
 
 import (
 	"fmt"
@@ -42,17 +42,17 @@ type Item struct {
 	// Custom note for the item, where price is stored
 	Note string
 
-	// A slice of item.Property
+	// A slice of Properties
 	Properties []Property
 
-	// A slice of item.Requirement
+	// A slice of Requirements
 	Requirements []Requirement
 
 	// Not sure what this looks like yet
 	// https://github.com/willroberts/loot/blob/master/forum/fixtures/items.json#L1238
 	SocketedItems interface{}
 
-	// A slice of item.Socket
+	// A slice of Sockets
 	Sockets []Socket
 
 	// Unknown
