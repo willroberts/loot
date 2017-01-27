@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-
-	"github.com/willroberts/loot/stash/items"
 )
 
 const (
@@ -29,7 +27,7 @@ type Stash struct {
 	LastCharacterName string
 	Id                string
 	Stash             string // Stash tab label, where the global price can be stored.
-	Items             []items.Item
+	Items             []Item
 	Public            bool
 }
 
