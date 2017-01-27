@@ -80,7 +80,7 @@ func getStashes(nextChangeId string) (*StashesResponse, error) {
 // Poll begins requesting stashes from the API starting from the most recent
 // change ID. It does not stop unless it is interrupted.
 // TODO: End loop on SIGINT or SIGTERM.
-// TODO: Store items in Redis with a TTL of 24-72 hours or maybe 7 days (TBD).
+// TODO: Store items in Redis with a short TTL?
 func Poll() error {
 	var s *StashesResponse
 	var err error
@@ -92,28 +92,23 @@ func Poll() error {
 	log.Println("Starting change ID:", next)
 
 	for {
-		/* Official documentation:
-		   If there are no changes, this page will show as empty.
-		   You need to simply retry this same page no quicker than every one second.
-		   Eventually, when someone makes a change, this page will return content.
-		   You should process this content just like the original page, load up the
-		   next_change_id, then start watching the next one for changes. */
 		s, err = getStashes(next)
 		if err != nil {
 			return err
 		}
-		log.Printf("  Found %d items.", countItems(s))
-
-		if next == s.NextChangeId {
-			log.Println("Caught up! Waiting a second.")
-			time.Sleep(1 * time.Second)
-		}
+		log.Printf("Found %d items.", countItems(s))
 
 		next = s.NextChangeId
-		log.Println("  Next change ID:", next)
+		log.Println("Next change ID:", next)
 		if err != nil {
 			return err
 		}
+
+		// Always wait one second between requests. The API documentation suggests
+		// waiting one second when encountering a page with no stashes (indicating
+		// that we're caught up), but we wait one second after every page in order
+		// to avoid being throttled or blacklisted.
+		time.Sleep(1 * time.Second)
 	}
 }
 
