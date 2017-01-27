@@ -35,17 +35,132 @@ package forum
 
 FUNCTIONS
 
-func Parse(h string) ([]items.ForumItem, error)
-    Given an HTML string, parses and returns []items.ForumItem
+func Parse(h string) ([]Item, error)
+    Given an HTML string, parses and returns []Item
 
 func Retrieve(thread int) (string, error)
     Given a forum thread ID, returns the response body as a string Returns
     an error when HTML validation fails
 
+TYPES
+
+type Item struct {
+    // The order in which the item appears in its thread
+    Id int
+
+    // The raw JSON data for the item
+    Data map[string]interface{}
+
+    // A parsed version of the JSON data
+    Attributes ItemAttributes
+
+    // An empty array; purpose unknown
+    Extra []interface{}
+}
+
+func (i *Item) PrintAttributes()
+
+type ItemAttributes struct {
+    // The name of the item
+    Name string
+
+    // Whether or not the item is corrupted
+    Corrupted bool
+
+    // The mods of the item as a slice of strings
+    ExplicitMods []string
+
+    // The flavor text of the item, where each element is a distinct line of text
+    FlavorText []string
+
+    // Not sure what this is for yet
+    FrameType int
+
+    // The height of the item in stash spaces
+    Height int
+
+    // The image URL for the item's icon
+    Icon string
+
+    // Whether or not this item is identified
+    Identified bool
+
+    // The league in which this item resides
+    League string
+
+    // Whether or not this item is locked to the character
+    LockedToCharacter bool
+
+    // A slice of Properties
+    Properties []Property
+
+    // A slice of Requirements
+    Requirements []Requirement
+
+    // Not sure what this looks like yet
+    // https://github.com/willroberts/loot/blob/master/forum/fixtures/items.json#L1238
+    SocketedItems interface{}
+
+    // A slice of Sockets
+    Sockets []Socket
+
+    // Whether or not this is a support gem (?)
+    Support bool
+
+    // For talismans, displays the tier (1-4)
+    TalismanTier int
+
+    // Item base type
+    TypeLine string
+
+    // Whether or not the item is still owned by the user
+    Verified bool
+
+    // Width of the item in stash spaces
+    Width int
+}
+
+type ItemValue struct {
+    // The actual value
+    Text string
+
+    // Purpose unknown
+    Flag int
+}
+
+type Property struct {
+    // The name of the property
+    Name string
+
+    // Whether or not the requirement is displayed on the website
+    DisplayMode int
+
+    // The value for this property
+    Value ItemValue
+}
+
+type Requirement struct {
+    // The name of the requirement
+    Name string
+
+    // Whether or not the requirement is displayed on the website
+    DisplayMode int
+
+    // Contains two integers: the value itself, and an unknown value (usually 0)
+    Value ItemValue
+}
+
+type Socket struct {
+    // One of S, D, or I for Strength, Dexterity, or Intelligence
+    Attribute string
+
+    // Numeric socket group. Sockets with the same group ID are linked
+    Group int
+}
+
 SUBDIRECTORIES
 
 	fixtures
-	items
 
 ## Stash
 
@@ -69,17 +184,113 @@ func Poll() error
 
 TYPES
 
+type Item struct {
+    // The name of the item
+    Name string
+
+    // The level of the item
+    ItemLevel int `json:"ilvl"`
+
+    // Whether or not the item is corrupted
+    Corrupted bool
+
+    // The mods of the item as a slice of strings
+    ExplicitMods []string
+
+    // The flavor text of the item, where each element is a distinct line of text
+    FlavorText []string
+
+    // Not sure what this is for yet
+    FrameType int
+
+    // The height of the item in stash spaces
+    Height int `json:"h"`
+
+    // The image URL for the item's icon
+    Icon string
+
+    // Whether or not this item is identified
+    Identified bool
+
+    // The league in which this item resides
+    League string
+
+    // Whether or not this item is locked to the character
+    LockedToCharacter bool
+
+    // Custom note for the item, where price is stored
+    Note string
+
+    // A slice of Properties
+    Properties []Property
+
+    // A slice of Requirements
+    Requirements []Requirement
+
+    // Not sure what this looks like yet
+    // https://github.com/willroberts/loot/blob/master/forum/fixtures/items.json#L1238
+    SocketedItems interface{}
+
+    // A slice of Sockets
+    Sockets []Socket
+
+    // Unknown
+    Support bool
+
+    // For talismans, displays the tier (1-4)
+    TalismanTier int
+
+    // Item base type
+    TypeLine string
+
+    // Whether or not the item is still owned by the user
+    Verified bool
+
+    // Width of the item in stash spaces
+    Width int `json:"w"`
+
+    // Position in Stash
+    X int
+    Y int
+
+    // Tab Number?
+    InventoryId string
+}
+
+func (i *Item) Print()
+
+type Property struct {
+    // The name of the property
+    Name string
+
+    // The value for this property
+    Values [][]interface{}
+}
+
+type Requirement struct {
+    // The name of the requirement
+    Name string
+
+    // The value for this requirement
+    Values [][]interface{}
+}
+
+type Socket struct {
+    // One of S, D, or I for Strength, Dexterity, or Intelligence
+    Attribute string `json:"attr"`
+
+    // Numeric socket group. Sockets with the same group ID are linked
+    Group int
+}
+
 type Stash struct {
     AccountName       string
     LastCharacterName string
     Id                string
     Stash             string // Stash tab label, where the global price can be stored.
-    Items             []items.Item
+    Items             []Item
     Public            bool
 }
     Stash represents a stash tab containing items.
 
-SUBDIRECTORIES
-
-	items
 
