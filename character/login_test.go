@@ -16,3 +16,13 @@ func TestReadCredsFromFile(t *testing.T) {
 	}
 	fmt.Println("OK")
 }
+
+func TestGetToken(t *testing.T) {
+	fmt.Print("Testing CSRF token retrieval...")
+	_, err := getToken()
+	if err != nil {
+		fmt.Println("error:", err)
+		t.Fail()
+	}
+	fmt.Println("OK")
+}
