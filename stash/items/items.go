@@ -10,7 +10,7 @@ type Item struct {
 	Name string
 
 	// The level of the item
-	ItemLevel int64 `json:"ilvl"`
+	ItemLevel int `json:"ilvl"`
 
 	// Whether or not the item is corrupted
 	Corrupted bool
@@ -22,10 +22,10 @@ type Item struct {
 	FlavorText []string
 
 	// Not sure what this is for yet
-	FrameType int64
+	FrameType int
 
 	// The height of the item in stash spaces
-	Height int64 `json:"h"`
+	Height int `json:"h"`
 
 	// The image URL for the item's icon
 	Icon string
@@ -59,7 +59,7 @@ type Item struct {
 	Support bool
 
 	// For talismans, displays the tier (1-4)
-	TalismanTier int64
+	TalismanTier int
 
 	// Item base type
 	TypeLine string
@@ -68,11 +68,11 @@ type Item struct {
 	Verified bool
 
 	// Width of the item in stash spaces
-	Width int64 `json:"w"`
+	Width int `json:"w"`
 
 	// Position in Stash
-	X int64
-	Y int64
+	X int
+	Y int
 
 	// Tab Number?
 	InventoryId string
@@ -83,7 +83,7 @@ type Property struct {
 	Name string
 
 	// Whether or not the requirement is displayed on the website
-	//DisplayMode int64
+	//DisplayMode int
 
 	// The value for this property
 	Values [][]interface{}
@@ -94,7 +94,7 @@ type Requirement struct {
 	Name string
 
 	// Whether or not the requirement is displayed on the website
-	//DisplayMode int64
+	//DisplayMode int
 
 	// The value for this requirement
 	Values [][]interface{}
@@ -105,7 +105,7 @@ type Socket struct {
 	Attribute string `json:"attr"`
 
 	// Numeric socket group. Sockets with the same group ID are linked
-	Group int64
+	Group int
 }
 
 func (i *Item) Print() {
