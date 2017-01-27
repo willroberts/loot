@@ -91,9 +91,9 @@ func getStashes(nextChangeId string) (*stashesResponse, error) {
 	return &s, nil
 }
 
-// CountItems iterates over the stashes in a specific response, then sums and
+// countItems iterates over the stashes in a specific response, then sums and
 // returns the number of items included in it.
-func CountItems(sr *stashesResponse) int {
+func countItems(sr *stashesResponse) int {
 	var count int
 	for _, s := range sr.Stashes {
 		count += len(s.Items)

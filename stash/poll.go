@@ -22,7 +22,7 @@ func Poll() error {
 		if err != nil {
 			return err
 		}
-		log.Printf("Found %d items.", CountItems(s))
+		log.Printf("Found %d items.", countItems(s))
 
 		next = s.NextChangeId
 		log.Println("Next change ID:", next)

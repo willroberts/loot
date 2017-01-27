@@ -174,10 +174,6 @@ package stash
 
 FUNCTIONS
 
-func CountItems(sr *stashesResponse) int
-    CountItems iterates over the stashes in a specific response, then sums
-    and returns the number of items included in it.
-
 func Poll() error
     Poll begins requesting stashes from the API starting from the most
     recent change ID. It does not stop unless it is interrupted.

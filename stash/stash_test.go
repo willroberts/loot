@@ -38,6 +38,6 @@ func TestGetStashesPage(t *testing.T) {
 
 func TestItemParsing(t *testing.T) {
 	fmt.Print("Testing item parsing...")
-	_ = CountItems(sr)
+	_ = countItems(sr)
 	fmt.Println("OK")
 }
