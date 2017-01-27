@@ -105,7 +105,7 @@ func parseItems(j string) ([]items.ForumItem, error) {
 			for i, _ := range assertedItem {
 				switch assertedAttr := assertedItem[i].(type) {
 				case float64:
-					item.Id = int64(assertedAttr)
+					item.Id = int(assertedAttr)
 				case map[string]interface{}:
 					item.Data = assertedAttr
 				case []interface{}:
@@ -126,8 +126,8 @@ func populateAttributes(i items.ForumItem) items.ForumItem {
 		Corrupted:         i.Data["corrupted"].(bool),
 		ExplicitMods:      toStrings(i.Data["explicitMods"]),
 		FlavorText:        toStrings(i.Data["flavourText"]),
-		FrameType:         int64(i.Data["frameType"].(float64)),
-		Height:            int64(i.Data["h"].(float64)),
+		FrameType:         int(i.Data["frameType"].(float64)),
+		Height:            int(i.Data["h"].(float64)),
 		Icon:              i.Data["icon"].(string),
 		Identified:        i.Data["identified"].(bool),
 		League:            i.Data["league"].(string),
@@ -136,10 +136,10 @@ func populateAttributes(i items.ForumItem) items.ForumItem {
 		Requirements:      parseRequirements(i.Data["requirements"]),
 		SocketedItems:     i.Data["socketedItems"],
 		Sockets:           parseSockets(i.Data["sockets"]),
-		TalismanTier:      int64(i.Data["talismanTier"].(float64)),
+		TalismanTier:      int(i.Data["talismanTier"].(float64)),
 		TypeLine:          i.Data["typeLine"].(string),
 		Verified:          i.Data["verified"].(bool),
-		Width:             int64(i.Data["w"].(float64)),
+		Width:             int(i.Data["w"].(float64)),
 	}
 	return i
 }
@@ -153,7 +153,7 @@ func parseSockets(i interface{}) []items.Socket {
 			socketMap := socketData.(map[string]interface{})
 			socket := items.Socket{
 				Attribute: socketMap["attr"].(string),
-				Group:     int64(socketMap["group"].(float64)),
+				Group:     int(socketMap["group"].(float64)),
 			}
 			s = append(s, socket)
 		}
@@ -175,7 +175,7 @@ func parseProperties(i interface{}) []items.Property {
 			propertyMap := PropertyData.(map[string]interface{})
 			property := items.Property{
 				Name:        propertyMap["name"].(string),
-				DisplayMode: int64(propertyMap["displayMode"].(float64)),
+				DisplayMode: int(propertyMap["displayMode"].(float64)),
 				Value:       parseValues(propertyMap["values"]),
 			}
 			p = append(p, property)
@@ -198,7 +198,7 @@ func parseRequirements(i interface{}) []items.Requirement {
 			requirementMap := RequirementData.(map[string]interface{})
 			requirement := items.Requirement{
 				Name:        requirementMap["name"].(string),
-				DisplayMode: int64(requirementMap["displayMode"].(float64)),
+				DisplayMode: int(requirementMap["displayMode"].(float64)),
 				Value:       parseValues(requirementMap["values"]),
 			}
 			p = append(p, requirement)
@@ -218,7 +218,7 @@ func parseValues(i interface{}) items.ItemValue {
 			case []interface{}:
 				return items.ItemValue{
 					Text: zz[0].(string),
-					Flag: int64(zz[1].(float64)),
+					Flag: int(zz[1].(float64)),
 				}
 			default:
 			}

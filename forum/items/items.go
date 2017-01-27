@@ -4,7 +4,7 @@ import "fmt"
 
 type ForumItem struct {
 	// The order in which the item appears in its thread
-	Id int64
+	Id int
 
 	// The raw JSON data for the item
 	Data map[string]interface{}
@@ -41,10 +41,10 @@ type ItemAttributes struct {
 	FlavorText []string
 
 	// Not sure what this is for yet
-	FrameType int64
+	FrameType int
 
 	// The height of the item in stash spaces
-	Height int64
+	Height int
 
 	// The image URL for the item's icon
 	Icon string
@@ -75,7 +75,7 @@ type ItemAttributes struct {
 	Support bool
 
 	// For talismans, displays the tier (1-4)
-	TalismanTier int64
+	TalismanTier int
 
 	// Item base type
 	TypeLine string
@@ -84,7 +84,7 @@ type ItemAttributes struct {
 	Verified bool
 
 	// Width of the item in stash spaces
-	Width int64
+	Width int
 }
 
 type Property struct {
@@ -92,7 +92,7 @@ type Property struct {
 	Name string
 
 	// Whether or not the requirement is displayed on the website
-	DisplayMode int64
+	DisplayMode int
 
 	// The value for this property
 	Value ItemValue
@@ -103,7 +103,7 @@ type Requirement struct {
 	Name string
 
 	// Whether or not the requirement is displayed on the website
-	DisplayMode int64
+	DisplayMode int
 
 	// Contains two integers: the value itself, and an unknown value (usually 0)
 	Value ItemValue
@@ -114,7 +114,7 @@ type Socket struct {
 	Attribute string
 
 	// Numeric socket group. Sockets with the same group ID are linked
-	Group int64
+	Group int
 }
 
 type ItemValue struct {
@@ -122,5 +122,5 @@ type ItemValue struct {
 	Text string
 
 	// Purpose unknown
-	Flag int64
+	Flag int
 }
