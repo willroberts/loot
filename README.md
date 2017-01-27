@@ -8,6 +8,12 @@ Go SDK for Path of Exile APIs
 * `forum`: Tools for parsing items directly from forums threads.
 * `stash`: A client for the official public stash tab API.
 
+## Running tests
+
+```bash
+make test
+```
+
 ## To do
 
 - [ ] Improve item models for stash API
