@@ -151,9 +151,12 @@ func (i *Item) Print() {
 	}
 }
 
-var re = regexp.MustCompile("<<.*>>")
+// Some strings contain tags surrounded by << >>. These are tags for
+// localization, and they can be discarded when using English.
+// Source: https://www.reddit.com/r/pathofexiledev/comments/48i4s1/information_on_the_new_stash_tab_api/d0kib1h/
+var localizationTagPattern = regexp.MustCompile("<<.*>>")
 
 func trimName(name string) string {
-	b := re.ReplaceAll([]byte(name), []byte(""))
+	b := localizationTagPattern.ReplaceAll([]byte(name), []byte(""))
 	return string(b)
 }
