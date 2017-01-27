@@ -6,12 +6,14 @@ import (
 )
 
 var (
-	sr *StashesResponse // Reuse stashes response in successive tests.
+	id string
+	sr *StashesResponse
 )
 
 func TestGetLatestChangeId(t *testing.T) {
 	fmt.Print("Retrieving latest change ID from poe.ninja...")
-	id, err := getLatestChangeId()
+	var err error
+	id, err = getLatestChangeId()
 	if err != nil {
 		fmt.Println("failed to retrieve latest change ID:", err)
 		t.Fail()
@@ -25,9 +27,8 @@ func TestGetLatestChangeId(t *testing.T) {
 
 func TestGetStashesPage(t *testing.T) {
 	fmt.Print("Retrieving one page of stashes...")
-	testChangeId := "40866453-43597087-40520850-47274086-44021477"
 	var err error
-	sr, err = getStashes(testChangeId)
+	sr, err = getStashes(id)
 	if err != nil {
 		fmt.Println("failed to retrieve stashes:", err)
 		t.Fail()
