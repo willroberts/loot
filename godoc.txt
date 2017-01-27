@@ -15,11 +15,12 @@ package character
 TYPES
 
 type Credentials struct {
-    Username string
+    Email    string
     Password string
 }
-    Credentials contains a username and password for pathofexile.com.
-    Authentication via session ID is not yet supported.
+    Credentials contains an email and password for pathofexile.com.
+    Authentication via session ID is not yet supported. TODO: Try SessionID
+    instead of username/password.
 
 
 ## Forum
@@ -58,6 +59,10 @@ package stash
 
 FUNCTIONS
 
+func CountItems(sr *stashesResponse) int
+    CountItems iterates over the stashes in a specific response, then sums
+    and returns the number of items included in it.
+
 func Poll() error
     Poll begins requesting stashes from the API starting from the most
     recent change ID. It does not stop unless it is interrupted.
@@ -73,13 +78,6 @@ type Stash struct {
     Public            bool
 }
     Stash represents a stash tab containing items.
-
-type StashesResponse struct {
-    NextChangeId string `json:"next_change_id"`
-    Stashes      []Stash
-}
-    StashesResponse contains the response from the official public stash tab
-    API.
 
 SUBDIRECTORIES
 
