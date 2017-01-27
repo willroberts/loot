@@ -7,27 +7,26 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/willroberts/loot/forum/items"
 	"golang.org/x/net/html"
 )
 
-// Given an HTML string, parses and returns []items.ForumItem
-func Parse(h string) ([]items.ForumItem, error) {
+// Given an HTML string, parses and returns []Item
+func Parse(h string) ([]Item, error) {
 	scripts, err := extractScripts(h)
 	if err != nil {
-		return []items.ForumItem{}, err
+		return []Item{}, err
 	}
 	itemScript, err := findItems(scripts)
 	if err != nil {
-		return []items.ForumItem{}, err
+		return []Item{}, err
 	}
 	j, err := extractJson(itemScript)
 	if err != nil {
-		return []items.ForumItem{}, err
+		return []Item{}, err
 	}
 	i, err := parseItems(j)
 	if err != nil {
-		return []items.ForumItem{}, err
+		return []Item{}, err
 	}
 	return i, nil
 }
@@ -89,16 +88,16 @@ func extractJson(script string) (string, error) {
 	return j, nil
 }
 
-// Unmarshal items JSON into items.ForumItem structs
-func parseItems(j string) ([]items.ForumItem, error) {
+// Unmarshal items JSON into Item structs
+func parseItems(j string) ([]Item, error) {
 	var v []interface{}
-	var itemSlice []items.ForumItem
+	var itemSlice []Item
 	err := json.Unmarshal([]byte(j), &v)
 	if err != nil {
 		fmt.Println(err)
 	}
 	for _, data := range v {
-		item := items.ForumItem{}
+		item := Item{}
 		switch assertedItem := data.(type) {
 		case []interface{}:
 			//for i := 0; i < 3; i++ {
@@ -120,8 +119,8 @@ func parseItems(j string) ([]items.ForumItem, error) {
 }
 
 // Replace map[string]interface{} with ItemAttributes in Item structs
-func populateAttributes(i items.ForumItem) items.ForumItem {
-	i.Attributes = items.ItemAttributes{
+func populateAttributes(i Item) Item {
+	i.Attributes = ItemAttributes{
 		Name:              i.Data["name"].(string),
 		Corrupted:         i.Data["corrupted"].(bool),
 		ExplicitMods:      toStrings(i.Data["explicitMods"]),
@@ -144,14 +143,14 @@ func populateAttributes(i items.ForumItem) items.ForumItem {
 	return i
 }
 
-// Converts a slice of map[string]interface{} to a slice of items.Socket
-func parseSockets(i interface{}) []items.Socket {
+// Converts a slice of map[string]interface{} to a slice of Sockets
+func parseSockets(i interface{}) []Socket {
 	switch ii := i.(type) {
 	case []interface{}:
-		s := []items.Socket{}
+		s := []Socket{}
 		for _, socketData := range ii {
 			socketMap := socketData.(map[string]interface{})
-			socket := items.Socket{
+			socket := Socket{
 				Attribute: socketMap["attr"].(string),
 				Group:     int(socketMap["group"].(float64)),
 			}
@@ -159,21 +158,21 @@ func parseSockets(i interface{}) []items.Socket {
 		}
 		return s
 	default:
-		return []items.Socket{}
+		return []Socket{}
 	}
 }
 
-// Converts a slice of map[string]interface{} to a slice of items.Property
-func parseProperties(i interface{}) []items.Property {
+// Converts a slice of map[string]interface{} to a slice of Properties
+func parseProperties(i interface{}) []Property {
 	if i == nil {
-		return []items.Property{}
+		return []Property{}
 	}
 	switch ii := i.(type) {
 	case []interface{}:
-		p := []items.Property{}
+		p := []Property{}
 		for _, PropertyData := range ii {
 			propertyMap := PropertyData.(map[string]interface{})
-			property := items.Property{
+			property := Property{
 				Name:        propertyMap["name"].(string),
 				DisplayMode: int(propertyMap["displayMode"].(float64)),
 				Value:       parseValues(propertyMap["values"]),
@@ -182,21 +181,21 @@ func parseProperties(i interface{}) []items.Property {
 		}
 		return p
 	default:
-		return []items.Property{}
+		return []Property{}
 	}
 }
 
-// Converts a slice of map[string]interface{} to a slice of items.Requirement
-func parseRequirements(i interface{}) []items.Requirement {
+// Converts a slice of map[string]interface{} to a slice of Requirements
+func parseRequirements(i interface{}) []Requirement {
 	if i == nil {
-		return []items.Requirement{}
+		return []Requirement{}
 	}
 	switch ii := i.(type) {
 	case []interface{}:
-		p := []items.Requirement{}
+		p := []Requirement{}
 		for _, RequirementData := range ii {
 			requirementMap := RequirementData.(map[string]interface{})
-			requirement := items.Requirement{
+			requirement := Requirement{
 				Name:        requirementMap["name"].(string),
 				DisplayMode: int(requirementMap["displayMode"].(float64)),
 				Value:       parseValues(requirementMap["values"]),
@@ -205,27 +204,27 @@ func parseRequirements(i interface{}) []items.Requirement {
 		}
 		return p
 	default:
-		return []items.Requirement{}
+		return []Requirement{}
 	}
 }
 
-// Converts a slice of slices with varying contents to items.ItemValue
-func parseValues(i interface{}) items.ItemValue {
+// Converts a slice of slices with varying contents to ItemValues
+func parseValues(i interface{}) ItemValue {
 	switch ii := i.(type) {
 	case []interface{}:
 		for _, z := range ii {
 			switch zz := z.(type) {
 			case []interface{}:
-				return items.ItemValue{
+				return ItemValue{
 					Text: zz[0].(string),
 					Flag: int(zz[1].(float64)),
 				}
 			default:
 			}
 		}
-		return items.ItemValue{}
+		return ItemValue{}
 	default:
-		return items.ItemValue{}
+		return ItemValue{}
 	}
 }
 

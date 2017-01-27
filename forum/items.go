@@ -1,8 +1,8 @@
-package items
+package forum
 
 import "fmt"
 
-type ForumItem struct {
+type Item struct {
 	// The order in which the item appears in its thread
 	Id int
 
@@ -16,7 +16,7 @@ type ForumItem struct {
 	Extra []interface{}
 }
 
-func (i *ForumItem) PrintAttributes() {
+func (i *Item) PrintAttributes() {
 	fmt.Println("ID:", i.Id)
 	fmt.Println("Name:", i.Attributes.Name)
 	fmt.Println("Base Type:", i.Attributes.TypeLine)
@@ -58,17 +58,17 @@ type ItemAttributes struct {
 	// Whether or not this item is locked to the character
 	LockedToCharacter bool
 
-	// A slice of item.Property
+	// A slice of Properties
 	Properties []Property
 
-	// A slice of item.Requirement
+	// A slice of Requirements
 	Requirements []Requirement
 
 	// Not sure what this looks like yet
 	// https://github.com/willroberts/loot/blob/master/forum/fixtures/items.json#L1238
 	SocketedItems interface{}
 
-	// A slice of item.Socket
+	// A slice of Sockets
 	Sockets []Socket
 
 	// Whether or not this is a support gem (?)
