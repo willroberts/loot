@@ -1,0 +1,87 @@
+## Loot
+
+Go SDK for Path of Exile APIs
+
+## Character
+
+use 'godoc cmd/github.com/willroberts/loot/character' for documentation on the github.com/willroberts/loot/character command 
+
+PACKAGE DOCUMENTATION
+
+package character
+    import "github.com/willroberts/loot/character"
+
+
+TYPES
+
+type Credentials struct {
+    Username string
+    Password string
+}
+    Credentials contains a username and password for pathofexile.com.
+    Authentication via session ID is not yet supported.
+
+
+## Forum
+
+use 'godoc cmd/github.com/willroberts/loot/forum' for documentation on the github.com/willroberts/loot/forum command 
+
+PACKAGE DOCUMENTATION
+
+package forum
+    import "github.com/willroberts/loot/forum"
+
+
+FUNCTIONS
+
+func Parse(h string) ([]items.ForumItem, error)
+    Given an HTML string, parses and returns []items.ForumItem
+
+func Retrieve(thread int) (string, error)
+    Given a forum thread ID, returns the response body as a string Returns
+    an error when HTML validation fails
+
+SUBDIRECTORIES
+
+	fixtures
+	items
+
+## Stash
+
+use 'godoc cmd/github.com/willroberts/loot/stash' for documentation on the github.com/willroberts/loot/stash command 
+
+PACKAGE DOCUMENTATION
+
+package stash
+    import "github.com/willroberts/loot/stash"
+
+
+FUNCTIONS
+
+func Poll() error
+    Poll begins requesting stashes from the API starting from the most
+    recent change ID. It does not stop unless it is interrupted.
+
+TYPES
+
+type Stash struct {
+    AccountName       string
+    LastCharacterName string
+    Id                string
+    Stash             string // Stash tab label, where the global price can be stored.
+    Items             []items.Item
+    Public            bool
+}
+    Stash represents a stash tab containing items.
+
+type StashesResponse struct {
+    NextChangeId string `json:"next_change_id"`
+    Stashes      []Stash
+}
+    StashesResponse contains the response from the official public stash tab
+    API.
+
+SUBDIRECTORIES
+
+	items
+
