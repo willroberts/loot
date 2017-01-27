@@ -1,3 +1,4 @@
+// Runs the poller for the public stash tab API.
 package main
 
 import (
