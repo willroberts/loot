@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	loginUrl = "http://www.pathofexile.com/login"
+	loginUrl = "https://www.pathofexile.com/login"
 )
 
 // Credentials contains a username and password for pathofexile.com.
