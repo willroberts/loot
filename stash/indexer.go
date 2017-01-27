@@ -14,6 +14,6 @@ package stash
 // Items don't currently have UIDs. Calculate UIDs based on the stash tab
 // location.
 
-func updateItems(sr *StashResponse) error {
+func updateItems(sr *StashesResponse) error {
 	return nil
 }
