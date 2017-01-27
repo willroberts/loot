@@ -16,11 +16,11 @@ func TestGetLatestChangeId(t *testing.T) {
 	id, err = getLatestChangeId()
 	if err != nil {
 		fmt.Println("failed to retrieve latest change ID:", err)
-		t.Fail()
+		t.FailNow()
 	}
 	if len(id) < 1 {
 		fmt.Println("error: next change ID is empty.")
-		t.Fail()
+		t.FailNow()
 	}
 	fmt.Println("OK")
 }
@@ -31,7 +31,7 @@ func TestGetStashesPage(t *testing.T) {
 	sr, err = getStashes(id)
 	if err != nil {
 		fmt.Println("failed to retrieve stashes:", err)
-		t.Fail()
+		t.FailNow()
 	}
 	fmt.Println("OK")
 }

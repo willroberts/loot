@@ -11,7 +11,7 @@ func TestPolling(t *testing.T) {
 	//err := poll()
 	//if err != nil {
 	//	log.Println("Error:", err)
-	//	t.Fail()
+	//	t.FailNow()
 	//}
 	fmt.Println("OK")
 }

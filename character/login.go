@@ -1,8 +1,12 @@
 package character
 
 import (
+	"bytes"
 	"encoding/json"
+	"errors"
+	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"net/url"
 	"strings"
@@ -12,32 +16,56 @@ const (
 	loginUrl = "https://www.pathofexile.com/login"
 )
 
-// Credentials contains a username and password for pathofexile.com.
+// Credentials contains an email and password for pathofexile.com.
 // Authentication via session ID is not yet supported.
 type Credentials struct {
-	Username string
+	Email    string
 	Password string
 }
 
-// authenticate creates a session at pathofexile.com.
+// authenticate creates a session on pathofexile.com.
 func authenticate(c Credentials) error {
 	token, err := getToken()
 	if err != nil {
 		return err
 	}
+	log.Println("Token:", token)
 
 	queryParams := url.Values{}
-	queryParams.Add("login_email", "")
-	queryParams.Add("login_password", "")
+	queryParams.Add("login_email", c.Email)
+	queryParams.Add("login_password", c.Password)
 	queryParams.Add("hash", token)
 	queryParams.Add("login", "Login")
+	paramReader := bytes.NewBufferString(queryParams.Encode())
 
-	_ = queryParams
+	req, err := http.NewRequest("POST", loginUrl, paramReader)
+	if err != nil {
+		return err
+	}
+	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	b, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+	errorMessage := strings.Split(strings.SplitAfter(string(b), "<ul class=\"errors\"><li>")[1], "</li></ul></td></tr>")[0]
+
+	if resp.Status != string(http.StatusFound) {
+		log.Println("Error:", errorMessage)
+		return errors.New(fmt.Sprintf("authentication failed: %s", "reason"))
+	}
 
 	return nil
 }
 
-// readCredsFromFile loads a username and password from the .credentials file.
+// readCredsFromFile loads an email and password from the .credentials file.
 func readCredsFromFile() (Credentials, error) {
 	b, err := ioutil.ReadFile(".credentials")
 	if err != nil {
